@@ -3,7 +3,7 @@ module.exports = {
 		{
 			stage: 1,
 			level: {
-				image: './dist/images/level/1.jpg'
+				image: './dist/images/level/1.png'
 			},
 			hero: {
 				message: 'Meow!',
