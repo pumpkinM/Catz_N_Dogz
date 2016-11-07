@@ -1,5 +1,11 @@
-Project setup:
+**Installation**
 
-``` npm install ```
+1. ``` npm install ```
 
-``` gulp ```
+2. ``` gulp ```
+
+3. ``` gulp connect ```
+
+**Usage**
+
+Go to ```localhost:8080```
