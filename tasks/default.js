@@ -5,6 +5,7 @@ gulp.task(
 	[
 		'clean',
 		'css',
+		'data',
 		'images',
 		'javascript'
 	]

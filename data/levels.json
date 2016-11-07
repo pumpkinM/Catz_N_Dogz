@@ -1,0 +1,102 @@
+{
+	"levels": [
+		{
+			"stage": 1,
+			"level": {
+				"image": "./dist/images/level/1.png",
+				"bottomOffset": 57
+			},
+			"hero": {
+				"image": "./dist/images/hero/cat.png",
+				"message": "Meow!"
+			},
+			"items": [
+				{
+					"points": 10,
+					"position": 500,
+					"image": {
+						"url": "./dist/images/items/cat-ball.png",
+						"width": 28,
+						"height": 28
+					}
+				},
+				{
+					"points": 5,
+					"position": 800,
+					"image": {
+						"url": "./dist/images/items/cat-cookie.png",
+						"width": 28,
+						"height": 20
+					}
+				},
+				{
+					"points": 15,
+					"position": 1000,
+					"image": {
+						"url": "./dist/images/items/mouse.png",
+						"width": 36,
+						"height": 24
+					}
+				},
+				{
+					"points": 10,
+					"position": 1200,
+					"image": {
+						"url": "./dist/images/items/cat-ball.png",
+						"width": 28,
+						"height": 28
+					}
+				}
+			]
+		},
+		{
+			"stage": 2,
+			"level": {
+				"image": "./dist/images/level/1.png",
+				"bottomOffset": 57
+			},
+			"hero": {
+				"message": "Wuf!",
+				"image": "./dist/images/hero/dog.png"
+			},
+			"items": [
+				{
+					"points": 5,
+					"position": 300,
+					"image": {
+						"url": "./dist/images/items/dog-ball.png",
+						"width": 24,
+						"height": 24
+					}
+				},
+				{
+					"points": 7,
+					"position": 600,
+					"image": {
+						"url": "./dist/images/items/dog-cookie.png",
+						"width": 26,
+						"height": 22
+					}
+				},
+				{
+					"points": 15,
+					"position": 900,
+					"image": {
+						"url": "./dist/images/items/dog-stick.png",
+						"width": 34,
+						"height": 24
+					}
+				},
+				{
+					"points": 5,
+					"position": 1100,
+					"image": {
+						"url": "./dist/images/items/dog-ball.png",
+						"width": 24,
+						"height": 24
+					}
+				}
+			]
+		}
+	]
+}

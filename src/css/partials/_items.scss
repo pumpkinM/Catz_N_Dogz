@@ -1,0 +1,7 @@
+$bottomOffset: 60px;
+
+.item {
+	position: absolute;
+	bottom: $bottomOffset;
+	transition: .2s left;
+}
