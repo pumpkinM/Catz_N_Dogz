@@ -4,6 +4,7 @@ gulp.task('watch',
 	[
 		'watch:javascript',
 		'watch:css',
+		'watch:data',
 		'watch:images'
 	]
 );
