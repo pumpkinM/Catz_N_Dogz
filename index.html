@@ -6,8 +6,23 @@
 	<link rel="stylesheet" href="dist/main.min.css">
 </head>
 <body>
+	<form class="js-form form">
+		<label for="name" class="form-label">Welcome! What is your name?</label>
+		<input id="name" class="js-form-player-name form-input" type="text">
+		<button class="js-form-submit form-button">Play!</button>
+	</form>
 
-	<canvas class="js-level level"></canvas>
+	<div class="js-game game hidden">
+		<div class="js-level level">
+			<div class="js-hero hero"></div>
+			<div class="js-score score">
+				<span class="js-score-name score-name"></span>
+				-
+				<span class="js-score-amount score-amount"></span>
+			</div>
+			<div class="js-items items"></div>
+		</div>
+	</div>
 
 	<script src="dist/game.min.js"></script>
 </body>

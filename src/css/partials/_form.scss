@@ -1,0 +1,24 @@
+.form {
+	margin: 20px;
+
+	&-input {
+		padding: 10px;
+		display: block;
+		margin: 20px 0;
+	}
+
+	&-button {
+		color: white;
+		-webkit-appearance: none;
+		appearance: none;
+		border: 0;
+		box-shadow: none;
+		padding: 10px;
+		text-transform: uppercase;
+		background-color: lighten(blue, 30%);
+	}
+
+	&.hidden {
+		display: none;
+	}
+}
