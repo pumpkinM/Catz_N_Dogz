@@ -2,4 +2,6 @@
 	background-repeat: repeat;
 	height: 385px;
 	width: 100vw;
+	position: relative;
+	transition: background-position .2s linear;
 }

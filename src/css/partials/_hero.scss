@@ -1,0 +1,36 @@
+$heroSourceWidth: 90px;
+$heroSourceHeight: 22px;
+$heroImageWidth: 53px;
+$heroImageHeight: 46px;
+$bgPosY: 0px;
+$bgPosX: 0px;
+
+.hero {
+	background-position-x: $bgPosX;
+	background-position-y: $bgPosY;
+	background-repeat: no-repeat;
+	background-size: ($heroSourceWidth * 2) ($heroSourceHeight * 2);
+	display: inline-block;
+	height: $heroImageHeight;
+	position: absolute;
+	transition: left .2s linear, bottom .2s linear, transform .2s linear;
+	width: $heroImageWidth;
+	z-index: 2;
+
+	&.disable-transition {
+		transition: none !important;
+	}
+
+	&.rotate {
+		transform: rotate(-25deg);
+	}
+
+	&.left {
+		-moz-transform: scaleX(-1) !important;
+		-o-transform: scaleX(-1) !important;
+		-webkit-transform: scaleX(-1) !important;
+		transform: scaleX(-1) !important;
+		filter: FlipH !important;
+		-ms-filter: “FlipH” !important;
+	}
+}
